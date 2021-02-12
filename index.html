@@ -86,7 +86,9 @@ a {
       <script>
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
-      ctx.fillRect(20, 20, 150, 100);
+      var width = screen.width;
+      var height = screen.height;
+      ctx.fillRect(20, 20, width- 10, height - 20);
       </script>
 
         <h1>WeBeTrees</h1>
